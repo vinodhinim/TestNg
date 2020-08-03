@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Addition operation through parameterisation is successful]]>
+    </line>
+    <line>
+      <![CDATA[Division operation through parameterisation is successful]]>
+    </line>
+    <line>
+      <![CDATA[Multiplication operation through parameterisation is successful]]>
+    </line>
+    <line>
+      <![CDATA[Subraction operation through parameterisation is successful]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="136" started-at="2020-08-03T17:11:49 IST" finished-at="2020-08-03T17:11:49 IST">
+    <groups>
+    </groups>
+    <test name="Parameter Scenario" duration-ms="136" started-at="2020-08-03T17:11:49 IST" finished-at="2020-08-03T17:11:49 IST">
+      <class name="calculatorTest.ParameterClass">
+        <test-method status="PASS" signature="add(int, int, int)[pri:0, instance:calculatorTest.ParameterClass@6f1fba17]" name="add" duration-ms="35" started-at="2020-08-03T17:11:49 IST" finished-at="2020-08-03T17:11:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Addition operation through parameterisation is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="div(int, int, int)[pri:0, instance:calculatorTest.ParameterClass@6f1fba17]" name="div" duration-ms="4" started-at="2020-08-03T17:11:49 IST" finished-at="2020-08-03T17:11:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Division operation through parameterisation is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul(int, int, int)[pri:0, instance:calculatorTest.ParameterClass@6f1fba17]" name="mul" duration-ms="5" started-at="2020-08-03T17:11:49 IST" finished-at="2020-08-03T17:11:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Multiplication operation through parameterisation is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub(int, int, int)[pri:0, instance:calculatorTest.ParameterClass@6f1fba17]" name="sub" duration-ms="5" started-at="2020-08-03T17:11:49 IST" finished-at="2020-08-03T17:11:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Subraction operation through parameterisation is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- calculatorTest.ParameterClass -->
+    </test> <!-- Parameter Scenario -->
+  </suite> <!-- Test Suite -->
+</testng-results>
